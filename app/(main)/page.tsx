@@ -1,3 +1,9 @@
+import { Hero } from "@/components/shared/Home/Hero";
+
 export default function Home() {
-  return <div className="font-gm text-4xl">Home</div>;
+  return (
+    <div className="">
+      <Hero />
+    </div>
+  );
 }
