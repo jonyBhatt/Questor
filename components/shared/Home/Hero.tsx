@@ -53,8 +53,8 @@ export const Hero = () => {
           alt="Hero"
           className="object-cover h-full max-w-lg sm:max-w-3xl  md:max-w-2xl w-full md:hidden lg:block"
         />
-        <div className="absolute p-6 rounded bg-gray-50 shadow-2xl bottom-96 max-w-xs w-full -left-20 flex flex-col items-center gap-8">
-          <h2 className="font-gm text-2xl text-secondary">
+        <div className="absolute p-6 rounded bg-gray-50 shadow-2xl bottom-96 max-w-xs w-full -left-28  flex-col items-center gap-8 hidden lg:flex">
+          <h2 className="font-gm text-2xl text-primary dark:text-secondary">
             200+ <span className="font-gs">Instructor</span>
           </h2>
           <div className="flex -space-x-4">
