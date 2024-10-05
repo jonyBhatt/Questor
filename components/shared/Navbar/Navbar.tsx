@@ -6,7 +6,7 @@ import { Mobilenav } from "./Mobilenav";
 export const Navbar = () => {
   return (
     <nav className="py-6 shadow-md  dark:shadow-secondary">
-      <div className="container mx-auto flex justify-between items-center gap-8">
+      <div className="container mx-auto flex justify-between items-center gap-8 px-4 md:px-0">
         {/** Logo */}
         <div className="flex items-start gap-1 ">
           <Image src={Logo} alt="logo" className="w-auto" />
